@@ -154,21 +154,26 @@ footer{
     grid-template-columns: repeat(3,1fr);
     padding: 2rem;
     width: 100%;
+    margin: 0 auto;
+    gap: 2rem;
 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .t0{
     font-size: 20px;
     font-family: sans-serif;
     color: purple;
-  margin-left: 170px;
-  margin-top: 50px;
+    margin-bottom: 1rem;
 }
 .t1{
     font-size: 15px;
     font-family: sans-serif;
     color: gray;
-    margin-left: 100px;
     width: 300px;
     
 }
@@ -176,15 +181,11 @@ footer{
     font-size: 20px;
     font-family: sans-serif;
     color: purple;
-  margin-left: 140px;
-  margin-top: 50px;
 }
 .t8{
     font-size: 20px;
     font-family: sans-serif;
     color: purple;
-  margin-left: 140px;
-  margin-top: 50px;
 }
 #t4{
     width: 250px;
@@ -195,7 +196,6 @@ footer{
     height: 40px;
     border: none;
     border-bottom: 2px solid gray;
-    margin-left: 70px;
     
 }
 #t5{
@@ -208,8 +208,7 @@ footer{
     height: 40px;
     border: none;
     border-bottom: 2px solid gray;
-    margin-left: 70px;
-    margin-top: 20px;
+
 }
 #t6{
     width: 250px;
@@ -220,8 +219,6 @@ footer{
     height: 40px;
     border: none;
     border-bottom: 2px solid gray;
-    margin-left: 70px;
-    margin-top: 20px;
 }
 #t7{
     width: 250px;
@@ -232,8 +229,6 @@ footer{
     height: 40px;
     border: none;
     border-bottom: 2px solid gray;
-    margin-left: 70px;
-    margin-top: 20px;
 }
 #t8{
     width: 120px;
@@ -241,8 +236,6 @@ footer{
     border: none;
     border-radius: 5px;
     background: purple;
-    margin-top: 20px;
-    margin-left: 70px;
     color: white;
     cursor: pointer;
 }
@@ -260,5 +253,8 @@ footer{
 @media (max-width: 575.98px){
     .cards_container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .footer{
+        grid-template-columns: repeat(1,1fr);
     }
 }
