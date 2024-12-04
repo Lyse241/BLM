@@ -156,7 +156,7 @@ h2{
 }
 
 .card img{
-    width: 300px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 0.75rem;
@@ -190,7 +190,7 @@ h4{
 
 .card2{
     
-    width: 950px;
+    width: 100%;
     height: 400px;
     object-fit: cover;
     padding: 1rem 2rem;
@@ -220,7 +220,7 @@ h4{
     text-align: center;
 }
 .makeup__cards-container>.card img{
-    width: 200px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 0.75rem;
@@ -262,7 +262,7 @@ h4{
     transition: transform 0.2s ease-in-out;
 }
 .produits .cards img {
-    width: 200px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 0.75rem;
