@@ -326,6 +326,7 @@ h4{
 .img-learn{
     width: 100%;
     border-radius: 0.75rem;
+    display: flex;
 }
 .add_btn{
     background: plum;
