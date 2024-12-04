@@ -315,7 +315,7 @@ h4{
     align-items: center;
 }
 .product{
-    max-width: 900px;
+    max-width: 100%;
     display: flex;
     align-items: center;
     gap: 2rem;
