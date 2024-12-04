@@ -243,7 +243,7 @@ h4{
     background-color: rgb(252, 117, 162);
 }
 .section_produits{
-    padding: 40px 0%;
+    padding: 40px 3%;
 }
 .produits{
     display: grid;
@@ -324,7 +324,7 @@ h4{
 
 }
 .img-learn{
-    width: 500px;
+    width: 100%;
     border-radius: 0.75rem;
 }
 .add_btn{
