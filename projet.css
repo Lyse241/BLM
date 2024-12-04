@@ -243,7 +243,8 @@ h4{
     background-color: rgb(252, 117, 162);
 }
 .section_produits{
-    padding: 40px 5%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .produits{
     display: grid;
